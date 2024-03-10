@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+}
+
+.cv-document {
+	box-sizing: border-box;
+	border: none;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: arial, sans-serif, tahoma;
+	font-size: 10pt;
+}
+
+.cv-page {
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    width: 900px;
+    min-height: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 1px rgba(0,0,0,.5);
+    background-color: #fff;
+    position: relative;
+    padding: 40px;
+}
+.section-title{
+    text-transform: uppercase;
+    border-bottom: 2px solid #000000;
+    margin-top: 40px;
+}
+.section-content{
+    /* background-color: aquamarine; */
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+.cv-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 50vh;
+    height: auto;
+    margin-right: 20px;
+    
+}
+
+.profile-info {
+    flex-grow: 1;
+}
+
+.section {
+    margin-top: 40px;
+}
+
+.section-title {
+    border-bottom: 2px solid #000;
+    text-transform: uppercase;
+}
+
+.profile-info p {
+    margin: 0;
+    line-height: 1.5; /* Khoảng cách dòng giữa các dòng văn bản */
+}
+
+.profile-info p span {
+    display: inline-block;
+    width: 150px; /* Độ rộng của phần nhãn */
+    font-weight: bold;
+}
